@@ -10,6 +10,8 @@ Please choose versions by [Semantic Versioning](http://semver.org/).
 
 ## Unreleased
 
+- ci: add ci.yml running `make precommit` -- the `test` required status check had no workflow producing it, permanently blocking every PR
+
 - chore: update github.com/bborbe/kafka to v1.25.11, github.com/bborbe/metrics to v0.6.1, github.com/bborbe/run to v1.10.2
 
 ## v0.2.1
